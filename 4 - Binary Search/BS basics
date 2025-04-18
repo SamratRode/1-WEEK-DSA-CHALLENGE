@@ -1,0 +1,17 @@
+For floor and ceil problems:
+
+1. remember introduce a variable result:
+
+For floor:
+
+greatest element smaller than given number 
+
+Approach from smaller to greater i.e.
+
+whenerver 
+
+arr[mid]<key:
+  res=mid;
+  low=mid+1;
+
+Vice versa for ceil;
